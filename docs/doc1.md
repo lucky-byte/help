@@ -1,72 +1,73 @@
 ---
 id: doc1
-title: Style Guide
-sidebar_label: Style Guide
+title: 风格指南
+sidebar_label: 风格指南
 slug: /
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+可以用 [GitHub-flavored Markdown 语法](https://github.github.com/gfm/) 来创作内容。
 
-## Markdown Syntax
+## Markdown 语法
 
 To serve as an example page when styling markdown based Docusaurus sites.
 
-## Headers
+## 标题
 
-# H1 - Create the best documentation
+# H1 - 创作优秀的文档
 
-## H2 - Create the best documentation
+## H2 - 创作优秀的文档
 
-### H3 - Create the best documentation
+### H3 - 创作优秀的文档
 
-#### H4 - Create the best documentation
+#### H4 - 创作优秀的文档
 
-##### H5 - Create the best documentation
+##### H5 - 创作优秀的文档
 
-###### H6 - Create the best documentation
-
----
-
-## Emphasis
-
-Emphasis, aka italics, with *asterisks* or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
+###### H6 - 创作优秀的文档
 
 ---
 
-## Lists
+## 强调
 
-1. First ordered list item
-1. Another item
-   - Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-   1. Ordered sub-list
-1. And another item.
+强调, 例如斜体, 用 *星号* 或者 _下划线_。
 
-* Unordered list can use asterisks
+高度强调, 例如粗体, 用 **双星号** or __双下划线__。
 
-- Or minuses
+组合强调用 **星号 和 _下划线_**。
 
-+ Or pluses
+删除用两个波浪号，~~删除文字~~
 
 ---
 
-## Links
+## 列表
 
-[I'm an inline-style link](https://www.google.com/)
+1. 第一个有序列表项
+1. 另一项
+   - 无序子项
+1. 实际的编号不用关心，只要是一个数字就行了
+   1. 有序子项
+1. 再加一项
 
-[I'm an inline-style link with title](https://www.google.com/ "Google's Homepage")
+* 无序列表可以用星号
 
-[I'm a reference-style link][arbitrary case-insensitive reference text]
+- 或者减号
 
-[You can use numbers for reference-style link definitions][1]
++ 或者加号
+
+---
+
+## 链接
+
+[这是内联风格的链接](https://www.google.com/)
+
+[这是内联风格的链接，带有标题](https://www.google.com/ "Google's Homepage")
+
+[这是引用风格的链接][arbitrary case-insensitive reference text]
+
+[可以用编号引用风格的链接定义][1]
 
 Or leave it empty and use the [link text itself].
+或者空起来，直接用 [link text itself]。
 
 URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or <http://www.example.com/> and sometimes example.com (but not on GitHub, for example).
 
@@ -78,7 +79,7 @@ Some text to show that the reference links can follow later.
 
 ---
 
-## Images
+## 图片
 
 Here's our logo (hover to see the title text):
 
@@ -90,11 +91,11 @@ Reference-style: ![alt text][logo]
 
 Images from any folder can be used by providing path to file. Path should be relative to markdown file.
 
-![img](../static/img/logo.svg)
+![img](../static/img/lucky-byte.png)
 
 ---
 
-## Code
+## 代码
 
 ```javascript
 var s = 'JavaScript syntax highlighting';
@@ -119,9 +120,9 @@ function highlightMe() {
 
 ---
 
-## Tables
+## 表格
 
-Colons can be used to align columns.
+冒号可以用来对其栏。
 
 | Tables        |      Are      |   Cool |
 | ------------- | :-----------: | -----: |
@@ -129,7 +130,8 @@ Colons can be used to align columns.
 | col 2 is      |   centered    |   \$12 |
 | zebra stripes |   are neat    |    \$1 |
 
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+至少必须 3 个减号来分开表头单元，最外面的竖线(|)是可选的，你也不需要排版的非常整齐。
+你可以用内联的 Markdown。
 
 | Markdown | Less      | Pretty     |
 | -------- | --------- | ---------- |
@@ -138,17 +140,17 @@ There must be at least 3 dashes separating each header cell. The outer pipes (|)
 
 ---
 
-## Blockquotes
+## 引用块
 
 > Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
 
-Quote break.
+引用断开
 
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
 
 ---
 
-## Inline HTML
+## 内联 HTML
 
 <dl>
   <dt>Definition list</dt>
@@ -160,44 +162,45 @@ Quote break.
 
 ---
 
-## Line Breaks
+## 断行
 
-Here's a line for us to start with.
+这是开始的一行。
 
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
+这行与上行之间用一个空行分开，所以成了一个 _分开的段落_。
 
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
+这行也是分开的段落，但是...
+这行与上行之间没有空行，所以它还是在 _同一段落_ 里。
 
 ---
 
-## Admonitions
+## 告诫
 
 :::note
 
-This is a note
+这要注意
 
 :::
 
 :::tip
 
-This is a tip
+这是提示
 
 :::
 
 :::important
 
-This is important
+这很重要
 
 :::
 
 :::caution
 
-This is a caution
+这要小心了
 
 :::
 
 :::warning
 
-This is a warning
+这是警告
 
 :::

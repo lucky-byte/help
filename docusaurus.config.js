@@ -1,6 +1,6 @@
 module.exports = {
-  title: '帮助',
-  tagline: '功能说明，接口文档，示例代码',
+  title: '文档中心',
+  tagline: '系统说明，接口文档，示例代码',
   organizationName: 'lucky-byte',
   projectName: 'help',
   url: 'https://help.lucky-byte.com',
@@ -9,7 +9,7 @@ module.exports = {
   favicon: 'img/favicon.png',
   themeConfig: {
     navbar: {
-      title: 'HELP',
+      title: '',
       logo: {
         alt: 'Lucky Byte, Inc.',
         src: 'img/lucky-byte.png',
@@ -34,11 +34,8 @@ module.exports = {
       links: [{
         title: '文档',
         items: [{
-          label: '写作指南',
+          label: 'Markdown 语法',
           to: 'docs/',
-        }, {
-          label: 'Second Doc',
-          to: 'docs/doc2/',
         }],
       }, {
         title: '社区',
@@ -58,10 +55,17 @@ module.exports = {
           label: '博客',
           to: 'blog',
         }, {
+          label: 'LuckyByte',
+          href: 'https://www.lucky-byte.com',
+        }, {
           label: 'GitHub',
           href: 'https://github.com/lucky-byte/help',
         }],
       }],
+      logo: {
+        alt: 'Algolia',
+        src: 'img/lucky-byte.png',
+      },
       copyright: `Copyright © ${new Date().getFullYear()} Lucky Byte, Inc.`,
     },
   },

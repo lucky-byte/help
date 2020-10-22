@@ -36,7 +36,7 @@ module.exports = {
         title: '指南',
         items: [{
           label: '星收付指南',
-          to: 'docs/mott',
+          to: 'docs/',
         }, {
           label: 'Markdown',
           to: 'docs/markdown',

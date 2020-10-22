@@ -1,8 +1,7 @@
 ---
-id: doc1
-title: 风格指南
-sidebar_label: 风格指南
-slug: /
+id: markdown
+title: Markdown 指南
+sidebar_label: Markdown
 ---
 
 可以用 [GitHub-flavored Markdown 语法](https://github.github.com/gfm/) 来创作内容。

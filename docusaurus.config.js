@@ -33,10 +33,13 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [{
-        title: '文档',
+        title: '指南',
         items: [{
-          label: 'Markdown 语法',
-          to: 'docs/',
+          label: '星收付指南',
+          to: 'docs/mott',
+        }, {
+          label: 'Markdown',
+          to: 'docs/markdown',
         }],
       }, {
         title: '社区',
@@ -44,11 +47,11 @@ module.exports = {
           label: 'Stack Overflow',
           href: 'https://stackoverflow.com/questions/tagged/luckybyte',
         }, {
-          label: 'Discord',
-          href: 'https://discordapp.com/invite/luckybyte',
+          label: 'Slack',
+          href: 'https://luckybyte.slack.com/',
         }, {
           label: 'Twitter',
-          href: 'https://twitter.com/luckybyte',
+          href: 'https://twitter.com/luckybyteinc',
         }],
       }, {
         title: '更多',
@@ -72,14 +75,8 @@ module.exports = {
     algolia: {
       apiKey: 'YOUR_API_KEY',
       indexName: 'YOUR_INDEX_NAME',
-
-      // Optional: see doc section bellow
       contextualSearch: true,
-
-      // Optional: Algolia search parameters
       searchParameters: {},
-
-      //... other Algolia params
     },
   },
   presets: [

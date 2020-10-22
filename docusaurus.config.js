@@ -33,13 +33,19 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [{
-        title: '业务指南',
+        title: '收单业务',
         items: [{
           label: '星收付移动收款',
           to: 'docs/mott',
         }, {
           label: '公众号菜单收款',
           to: 'docs/gzhmenu',
+        }],
+      }, {
+        title: '商户进件',
+        items: [{
+          label: '操作流程',
+          to: 'docs/mott',
         }],
       }, {
         title: '社区',

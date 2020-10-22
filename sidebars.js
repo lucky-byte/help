@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    '业务指南': ['busidata', 'mott', 'gzhmenu'],
-    Features: ['mdx'],
+    '收单业务': ['busidata', 'mott', 'gzhmenu'],
+    '商户进件': ['mdx'],
   },
 };

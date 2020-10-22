@@ -58,7 +58,7 @@ function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   return (
-    <Layout title={`${siteConfig.title}`} description="文档中心">
+    <Layout title={`${siteConfig.title}`} description="Lucky Byte, Inc.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>

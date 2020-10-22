@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    指南: ['mott', 'markdown'],
+    '业务指南': ['busidata', 'mott', 'gzhmenu'],
     Features: ['mdx'],
   },
 };

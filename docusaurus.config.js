@@ -33,13 +33,13 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [{
-        title: '指南',
+        title: '业务指南',
         items: [{
-          label: '星收付指南',
-          to: 'docs/',
+          label: '星收付移动收款',
+          to: 'docs/mott',
         }, {
-          label: 'Markdown',
-          to: 'docs/markdown',
+          label: '公众号菜单收款',
+          to: 'docs/gzhmenu',
         }],
       }, {
         title: '社区',
@@ -58,6 +58,9 @@ module.exports = {
         items: [{
           label: '博客',
           to: 'blog',
+        }, {
+          label: 'Markdown',
+          to: 'docs/markdown',
         }, {
           label: 'LuckyByte',
           href: 'https://www.lucky-byte.com',

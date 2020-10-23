@@ -24,6 +24,10 @@
   justify-content: center;
 }
 
+.getStarted {
+  color: #004;
+}
+
 .features {
   display: flex;
   align-items: center;
@@ -34,4 +38,8 @@
 .featureImage {
   height: 200px;
   width: 200px;
+  border-radius: 100px;
+  border: 1px solid #8882;
+  margin-bottom: 10px;
+  background-color: #2224;
 }

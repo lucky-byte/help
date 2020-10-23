@@ -1,6 +1,6 @@
 module.exports = {
-  title: '文档中心',
-  tagline: '系统说明，接口文档，示例代码',
+  title: 'LUCKYBYTE 文档站',
+  tagline: '用户手册，接口文档，示例代码',
   organizationName: 'lucky-byte',
   projectName: 'help',
   url: 'https://help.lucky-byte.com',
@@ -25,6 +25,10 @@ module.exports = {
         label: '博客',
         position: 'left',
       }, {
+        href: 'https://www.lucky-byte.com',
+        label: 'LuckyByte',
+        position: 'right',
+      }, {
         href: 'https://github.com/lucky-byte/help',
         label: 'GitHub',
         position: 'right',
@@ -33,7 +37,7 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [{
-        title: '收单业务',
+        title: '企业收款',
         items: [{
           label: '星收付移动收款',
           to: 'docs/mott',
@@ -44,11 +48,11 @@ module.exports = {
           label: '定时推送通知收款',
           to: 'docs/gzhpush',
         }, {
-          label: '订单业务要素配置',
+          label: '订单业务组件配置',
           to: 'docs/busidata',
         }],
       }, {
-        title: '商户进件',
+        title: '业务拓展',
         items: [{
           label: '商户进件指南',
           to: 'docs/merin',
@@ -74,8 +78,8 @@ module.exports = {
           label: 'Markdown',
           to: 'docs/markdown',
         }, {
-          label: 'LuckyByte',
-          href: 'https://www.lucky-byte.com',
+          label: 'Docusaurus',
+          href: 'https://v2.docusaurus.io/',
         }, {
           label: 'GitHub',
           href: 'https://github.com/lucky-byte/help',

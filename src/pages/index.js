@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 
 const features = [{
   title: '星收付',
-  imageUrl: 'img/mott.png',
+  imageUrl: 'img/prod-1.jpg',
   description: (
     <>
       <p>企业收款，随时随地，资金安全，对账清晰</p>
@@ -19,7 +19,7 @@ const features = [{
   ),
 }, {
   title: 'STAR MARK',
-  imageUrl: 'img/undraw_docusaurus_tree.svg',
+  imageUrl: 'img/prod-2.jpg',
   description: (
     <>
       <p>帮助实体企业打通线上销售窗口</p>
@@ -30,7 +30,7 @@ const features = [{
   ),
 }, {
   title: '品牌小商城',
-  imageUrl: 'img/undraw_docusaurus_react.svg',
+  imageUrl: 'img/prod-3.jpg',
   description: (
     <>
       <p>帮助企业打造自主品牌小程序商城</p>

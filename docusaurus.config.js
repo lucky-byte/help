@@ -40,11 +40,17 @@ module.exports = {
         }, {
           label: '公众号菜单收款',
           to: 'docs/gzhmenu',
+        }, {
+          label: '定时推送通知收款',
+          to: 'docs/gzhpush',
+        }, {
+          label: '订单业务要素配置',
+          to: 'docs/busidata',
         }],
       }, {
         title: '商户进件',
         items: [{
-          label: '进件指南',
+          label: '商户进件指南',
           to: 'docs/merin',
         }],
       }, {

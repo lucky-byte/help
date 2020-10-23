@@ -7,8 +7,6 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-code-font-size: 90%;
-
   --ifm-color-primary: #00aaaa;
   --ifm-color-primary-dark: #009999;
   --ifm-color-primary-darker: #009090;
@@ -16,6 +14,8 @@
   --ifm-color-primary-light: #00bbbb;
   --ifm-color-primary-lighter: #00c3c3;
   --ifm-color-primary-lightest: #00dddd;
+
+  --ifm-code-font-size: 90%;
 }
 
 .docusaurus-highlight-code-line {
@@ -23,4 +23,8 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+article > header > h1 {
+  font-size: 2.2rem !important;
 }

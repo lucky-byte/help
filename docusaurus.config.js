@@ -48,7 +48,7 @@ module.exports = {
           label: '定时推送通知收款',
           to: 'docs/gzhpush',
         }, {
-          label: '订单业务组件配置',
+          label: '业务组件配置',
           to: 'docs/busidata',
         }],
       }, {
@@ -87,7 +87,7 @@ module.exports = {
       }],
       logo: {
         alt: 'Lucky Byte, Inc.',
-        src: 'img/lucky-byte.png',
+        src: 'img/lucky-byte-dark.png',
       },
       copyright: `Copyright © ${new Date().getFullYear()} Lucky Byte, Inc.`,
     },

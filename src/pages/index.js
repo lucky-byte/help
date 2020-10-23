@@ -11,10 +11,12 @@ const features = [{
   imageUrl: 'img/prod-1.jpg',
   description: (
     <>
-      <p>企业收款，随时随地，资金安全，对账清晰</p>
-      <li>资金安全，回款快，资金直入公司账户</li>
-      <li>对账清晰，每笔订单详细记录业务信息</li>
-      <li>配置灵活，适应不同的业务需求和场景</li>
+      <p><b>企业收款，随时随地，资金安全，对账清晰</b></p>
+      <span>资金安全，回款快，资金直入公司账户</span>
+      <br/>
+      <span>对账清晰，每笔订单详细记录业务信息</span>
+      <br/>
+      <span>配置灵活，适应不同的业务需求和场景</span>
     </>
   ),
 }, {
@@ -22,10 +24,12 @@ const features = [{
   imageUrl: 'img/prod-2.jpg',
   description: (
     <>
-      <p>帮助实体企业打通线上销售窗口</p>
-      <li>简单易用，覆盖面广，直达用户</li>
-      <li>团购、秒杀、优惠券</li>
-      <li>众筹、爆款、二手货</li>
+      <p><b>帮助实体企业打通线上销售窗口</b></p>
+      <span>简单易用，覆盖面广，直达用户</span>
+      <br/>
+      <span>团购、秒杀、优惠券</span>
+      <br/>
+      <span>众筹、直播、爆款、二手货</span>
     </>
   ),
 }, {
@@ -33,10 +37,12 @@ const features = [{
   imageUrl: 'img/prod-3.jpg',
   description: (
     <>
-      <p>帮助企业打造自主品牌小程序商城</p>
-      <li>每个企业都有自己的品牌</li>
-      <li>门槛低、速度快、费用低</li>
-      <li>内置营销工具，全程技术支持</li>
+      <p><b>帮助企业打造自主品牌小程序商城</b></p>
+      <span>每个企业都有自己的品牌</span>
+      <br/>
+      <span>门槛低、速度快、功能全、费用低</span>
+      <br/>
+      <span>营销工具丰富，全程技术支持</span>
     </>
   ),
 }];
@@ -50,8 +56,10 @@ function Feature({imageUrl, title, description}) {
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3 className="text--center">{title}</h3>
-      <p className="text--center">{description}</p>
+      <h2 className="text--center" style={{color: '#088'}}>{title}</h2>
+      <div className="text--center" style={{marginBottom:'20px'}}>
+        {description}
+      </div>
     </div>
   );
 }
@@ -67,9 +75,7 @@ function Home() {
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link to={useBaseUrl('docs/')}
-              className={clsx('button button--info button--lg',
-                styles.getStarted,
-              )}>
+              className={clsx('button button--info button--lg', styles.getStarted)}>
               从这里开始
             </Link>
           </div>

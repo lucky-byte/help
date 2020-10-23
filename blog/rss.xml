@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>LUCKYBYTE 文档站 Blog</title>
+        <link>https://help.lucky-byte.com/blog</link>
+        <description>LUCKYBYTE 文档站 Blog</description>
+        <lastBuildDate>Fri, 23 Oct 2020 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <copyright>Copyright © 2020 Lucky Byte, Inc.</copyright>
+        <item>
+            <title><![CDATA[建站小结]]></title>
+            <link>https://help.lucky-byte.com/blog/docsite</link>
+            <guid>docsite</guid>
+            <pubDate>Fri, 23 Oct 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[最近几天使用 Docusaurus v2 搭建了这个文档站点，]]></description>
+        </item>
+    </channel>
+</rss>

@@ -96,6 +96,10 @@ module.exports = {
       indexName: 'lucky-byte',
       contextualSearch: true,
       searchParameters: {},
+      placeholder: '搜索',
+    },
+    googleAnalytics: {
+      trackingID: 'UA-92329794-1',
     },
   },
   presets: [
@@ -109,11 +113,30 @@ module.exports = {
         blog: {
           showReadingTime: true,
           editUrl: 'https://github.com/lucky-byte/help/edit/main',
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} Lucky Byte, Inc.`,
+          },
+          blogTitle: '博客',
+          blogSidebarCount: 10,
+          blogSidebarTitle: '最近发布',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       },
-    ],
+    ]
+  ],
+  plugins: [
+    '@docusaurus/plugin-google-analytics',
+     [
+      '@docusaurus/plugin-sitemap',
+      {
+        cacheTime: 600 * 1000, // 600 sec - cache purge period
+        changefreq: 'weekly',
+        priority: 0.5,
+        trailingSlash: false,
+      },
+    ]
   ],
 };

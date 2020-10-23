@@ -92,8 +92,8 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Lucky Byte, Inc.`,
     },
     algolia: {
-      apiKey: 'YOUR_API_KEY',
-      indexName: 'YOUR_INDEX_NAME',
+      apiKey: 'f6db6f28047cb0a8afc1ab16b6a2e8da',
+      indexName: 'lucky-byte',
       contextualSearch: true,
       searchParameters: {},
     },

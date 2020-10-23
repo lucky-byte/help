@@ -1,6 +1,7 @@
 module.exports = {
   someSidebar: {
-    '收单业务': ['busidata', 'mott', 'gzhmenu'],
-    '商户进件': ['mdx'],
+    '欢迎': ['index'],
+    '收单业务': ['mott', 'gzhmenu', 'gzhpush', 'busidata'],
+    '商户进件': ['merin'],
   },
 };

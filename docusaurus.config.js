@@ -19,11 +19,11 @@ module.exports = {
         to: 'docs/',
         activeBasePath: 'docs',
         label: '文档',
-        position: 'right',
+        position: 'left',
       }, {
         to: 'blog',
         label: '博客',
-        position: 'right',
+        position: 'left',
       }, {
         href: 'https://github.com/lucky-byte/help',
         label: 'GitHub',
@@ -44,8 +44,8 @@ module.exports = {
       }, {
         title: '商户进件',
         items: [{
-          label: '操作流程',
-          to: 'docs/mott',
+          label: '进件指南',
+          to: 'docs/merin',
         }],
       }, {
         title: '社区',
@@ -94,11 +94,11 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/lucky-byte/help/edit/main/docs',
+          editUrl: 'https://github.com/lucky-byte/help/edit/main',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/lucky-byte/help/edit/main/website/blog/',
+          editUrl: 'https://github.com/lucky-byte/help/edit/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -98,8 +98,8 @@ module.exports = {
       searchParameters: {},
       placeholder: '搜索',
     },
-    googleAnalytics: {
-      trackingID: 'UA-92329794-1',
+    gtag: {
+      trackingID: 'G-H8S64E6W0N',
     },
   },
   presets: [

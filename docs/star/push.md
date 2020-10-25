@@ -1,7 +1,7 @@
 ---
-id: gzhpush
-title: 公众号定时推送通知收款
-sidebar_label: 定时推送通知收款
+id: push
+title: 公众号推送通知收款
+sidebar_label: 推送通知收款
 ---
 
 公众号定时推送通知收款适用于需要定时收款的场景，例如房租、水电费、物业费、小区停车费等，

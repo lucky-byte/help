@@ -1,11 +1,11 @@
 ---
-id: gzhmenu
+id: menu
 title: 公众号菜单收款
 ---
 
 商户可以在自己公众号底部的菜单中增加一个子菜单，例如`报名缴费`，方便用户快速缴费。
 
-<img src='/img/gzhmenu/1.jpg' title='公众号菜单' alt='公众号菜单'
+<img src='/img/star/menu/1.jpg' title='公众号菜单' alt='公众号菜单'
   style={{
     width: '240px', display: 'block', margin: 'auto auto 10px auto'
   }}
@@ -13,7 +13,7 @@ title: 公众号菜单收款
 
 用户选择菜单后进入付款页面，录入一些数据，例如`学生姓名`、`缴费项目`等，然后确认付款，
 整个流程全部在公众号内完成，无需跳转。
-需要用户录入的信息可以在[后台进行配置](busidata.md)，所有用户录入的信息会记录在订单中，
+需要用户录入的信息可以在[后台进行配置](./busidata)，所有用户录入的信息会记录在订单中，
 方便商户查询对账。
 
 :::important 注意

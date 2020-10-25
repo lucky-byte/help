@@ -37,19 +37,25 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [{
-        title: '企业收款',
+        title: '星收付',
         items: [{
-          label: '星收付移动收款',
-          to: 'docs/mott',
+          label: '小程序移动收款',
+          to: 'docs/star/mott',
         }, {
           label: '公众号菜单收款',
-          to: 'docs/gzhmenu',
+          to: 'docs/star/menu',
         }, {
-          label: '定时推送通知收款',
-          to: 'docs/gzhpush',
+          label: '推送通知收款',
+          to: 'docs/star/push',
         }, {
           label: '业务组件配置',
-          to: 'docs/busidata',
+          to: 'docs/star/busidata',
+        }],
+      }, {
+        title: '品牌商城',
+        items: [{
+          label: '产品介绍',
+          to: 'docs/merin',
         }],
       }, {
         title: '业务拓展',

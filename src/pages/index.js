@@ -33,7 +33,7 @@ const features = [{
     </>
   ),
 }, {
-  title: '品牌小商城',
+  title: '品牌商城',
   imageUrl: 'img/prod-3.jpg',
   description: (
     <>

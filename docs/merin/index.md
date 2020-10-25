@@ -1,5 +1,5 @@
 ---
-id: merin
+id: index
 title: 商户进件指南
 ---
 

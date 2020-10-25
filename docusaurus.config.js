@@ -55,13 +55,13 @@ module.exports = {
         title: '品牌商城',
         items: [{
           label: '产品介绍',
-          to: 'docs/merin',
+          to: 'docs/mark/index',
         }],
       }, {
         title: '业务拓展',
         items: [{
           label: '商户进件指南',
-          to: 'docs/merin',
+          to: 'docs/merin/index',
         }],
       }, {
         title: '社区',

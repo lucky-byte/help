@@ -100,8 +100,10 @@ module.exports = {
     algolia: {
       apiKey: 'f6db6f28047cb0a8afc1ab16b6a2e8da',
       indexName: 'lucky-byte',
-      contextualSearch: true,
-      searchParameters: {},
+      contextualSearch: false,
+      searchParameters: {
+        facetFilters: ["language:zh"],
+      },
       placeholder: '搜索',
     },
     gtag: {

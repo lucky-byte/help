@@ -8,6 +8,7 @@ import styles from './styles.module.css';
 
 const features = [{
   title: '星收付',
+  to: 'star/index',
   imageUrl: 'img/prod-1.jpg',
   description: (
     <>
@@ -21,6 +22,7 @@ const features = [{
   ),
 }, {
   title: 'STAR MARK',
+  to: 'mark/index',
   imageUrl: 'img/prod-2.jpg',
   description: (
     <>
@@ -34,6 +36,7 @@ const features = [{
   ),
 }, {
   title: '品牌商城',
+  to: 'mark/index',
   imageUrl: 'img/prod-3.jpg',
   description: (
     <>
@@ -47,7 +50,7 @@ const features = [{
   ),
 }];
 
-function Feature({imageUrl, title, description}) {
+function Feature({imageUrl, title, to, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--4', styles.feature)}>
@@ -56,7 +59,9 @@ function Feature({imageUrl, title, description}) {
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h2 className="text--center" style={{color: '#088'}}>{title}</h2>
+      <h2 className="text--center">
+        <Link to={useBaseUrl('docs/') + to}>{title}</Link>
+      </h2>
       <div className="text--center" style={{marginBottom:'20px'}}>
         {description}
       </div>

@@ -9,7 +9,7 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
-    "github": "GIT_USER=lucky-xiaohu docusaurus deploy"
+    "github": "GIT_USER=zhaomd0316 docusaurus deploy"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.66",

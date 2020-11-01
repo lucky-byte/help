@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    '文档中心': ['index'],
+    '文档中心': ['index', 'merinfo'],
     '星收付': [
       'star/index', 'star/mott', 'star/menu', 'star/push', 'star/busidata',
     ],
